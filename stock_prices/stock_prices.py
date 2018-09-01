@@ -3,8 +3,14 @@
 import argparse
 
 def find_max_profit(prices):
-  pass 
-
+  profits = []
+  for i, price in enumerate(prices):
+    for i2 in range(i,len(prices)):
+      try:
+        profits.append(prices[i2+1]-price)
+      except IndexError:
+        pass
+  return max(profits)
 
 if __name__ == '__main__':
   # You can test your implementation by running 
