@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -105,3 +106,9 @@ venv.bak/
 Pipfile
 Pipfile.lock
 .vscode/settings.json
+=======
+.vscode/
+*.pyc
+__pycache__/
+.DS_Store
+>>>>>>> upstream/master
